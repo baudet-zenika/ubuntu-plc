@@ -1,0 +1,8 @@
+---
+- name: install ubunutu plc
+  hosts: local
+  become: true
+
+  roles:
+    - docker
+    - minikube

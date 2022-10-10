@@ -1,0 +1,4 @@
+- name: apt docker-compose
+  ansible.builtin.apt:
+    name: docker-compose
+

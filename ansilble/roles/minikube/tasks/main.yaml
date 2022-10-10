@@ -1,0 +1,12 @@
+- name: apt docker
+  ansible.builtin.apt:
+    name: docker-compose
+- name: Ensure group "docker" exists
+  ansible.builtin.group:
+    name: docker
+    state: present
+- name: Add test in docker grooup
+  ansible.builtin.user:
+    name: test
+    groups: docker
+    append: yes
