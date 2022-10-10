@@ -1,12 +1,15 @@
-docker
-btop
-eclipse
-visual code
-slack
-deezer
-minikube
-solaar
-vlc
-ajustements https://doc.ubuntu-fr.org/gnome-tweaks
-machines
-discors
+#docker
+#btop
+#eclipse
+#visual code
+#slack
+#deezer
+#minikube
+#solaar
+#vlc
+#ajustements https://doc.ubuntu-fr.org/gnome-tweaks
+# machines
+#   sudo apt install flatpak
+#   flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+#   flatpak install flathub org.gnome.Boxes
+discords

@@ -1,0 +1,4 @@
+- name: apt solaar
+  ansible.builtin.apt:
+    name: solaar
+

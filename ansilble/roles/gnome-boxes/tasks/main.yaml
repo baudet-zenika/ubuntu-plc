@@ -1,0 +1,7 @@
+- name: apt flatpak
+  ansible.builtin.apt:
+    name: flatpak
+- name: Install the gnome.Boxes flatpak
+  community.general.flatpak:
+    name:  https://flathub.org/repo/flathub.flatpakrepo/org.gnome.Boxes
+    state: present

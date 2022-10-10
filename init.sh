@@ -12,4 +12,4 @@ sudo cp hosts /etc/ansible/hosts
 ansible-inventory --list -y
 
 
-#ansible-playbook  -u $USER docker.yaml -K
+#ansible-playbook  -u $USER main.yaml -K

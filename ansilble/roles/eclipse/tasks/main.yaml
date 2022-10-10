@@ -1,0 +1,4 @@
+- name: Install "eclipse" with option --classic
+  community.general.snap:
+    name: eclipse
+    classic: true

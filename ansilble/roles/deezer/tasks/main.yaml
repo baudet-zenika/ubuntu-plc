@@ -1,0 +1,4 @@
+- name: Install "deezer-unofficial-player" with option --classic
+  community.general.snap:
+    name: deezer-unofficial-player
+    classic: true
