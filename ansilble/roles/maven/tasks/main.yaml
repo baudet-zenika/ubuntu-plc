@@ -1,0 +1,3 @@
+- name: apt maven
+  ansible.builtin.apt:
+    name: maven

@@ -1,0 +1,4 @@
+- name: apt jdk
+  ansible.builtin.apt:
+    name: default-jdk
+

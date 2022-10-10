@@ -1,0 +1,3 @@
+- name: apt nodejs
+  ansible.builtin.apt:
+    name: nodejs

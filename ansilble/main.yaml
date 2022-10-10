@@ -16,3 +16,9 @@
     - slack
     - solaar
     - vlc
+    - kubectl
+    - helm
+    - jdk
+    - maven
+    - npm
+    - nodejs

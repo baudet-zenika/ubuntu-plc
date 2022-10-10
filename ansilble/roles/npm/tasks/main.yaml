@@ -1,0 +1,3 @@
+- name: apt npm
+  ansible.builtin.apt:
+    name: npm
