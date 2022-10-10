@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 sudo apt update
 sudo apt install ssh -y
 sudo rm /home/$USER/.ssh/id_rsa
@@ -12,5 +12,4 @@ sudo mkdir -p /etc/ansible
 sudo cp hosts /etc/ansible/hosts
 ansible-inventory --list -y
 
-git clone https://github.com/baudet-zenika/ubuntu-plc.git
-ansible-playbook  -u $USER ubuntu-plc/ansilble/main.yaml -K
+ansible-playbook  -u $USER ansilble/main.yaml -K
