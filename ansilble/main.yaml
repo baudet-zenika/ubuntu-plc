@@ -4,12 +4,14 @@
   become: true
 
   roles:
+    - flatpak
+    
     - btop
     - code
     - deezer
     - discord
     - docker
-    - eclispe
+    - eclipse
     - gnome-boxes
     - gnome-tweaks
     - minikube
