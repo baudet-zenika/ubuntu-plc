@@ -4,8 +4,6 @@
   become: true
 
   roles:
-    - flatpak
-    
     - btop
     - code
     - deezer
