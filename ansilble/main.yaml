@@ -4,5 +4,15 @@
   become: true
 
   roles:
+    - btop
+    - code
+    - deezer
+    - discord
     - docker
+    - eclispe
+    - gnome-boxes
+    - gnome-tweaks
     - minikube
+    - slack
+    - solaar
+    - vlc
