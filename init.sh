@@ -1,7 +1,7 @@
 #!/bin/sh -e
 sudo apt update
 sudo apt install ssh -y
-sudo rm /home/$USER/.ssh/id_rsa
+sudo rm -f /home/$USER/.ssh/id_rsa
 ssh-keygen -N "" -f /home/$USER/.ssh/id_rsa
 ssh-copy-id $USER@127.0.0.1
 

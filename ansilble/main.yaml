@@ -6,8 +6,6 @@
   roles:
     - btop
     - code
-    - deezer
-    - discord
     - docker
     - eclipse
     - gnome-boxes
@@ -22,3 +20,5 @@
     - maven
     - npm
     - nodejs
+    - deezer
+    - discord
